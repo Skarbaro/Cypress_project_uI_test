@@ -82,7 +82,7 @@ Cypress.Commands.add("createProject", () => {
 Cypress.Commands.add("loginAPI", () => { 
     cy.request({
         method: 'POST',
-        url: 'http://sindex.qarea.org:10003/rpc/user',
+        url: 'http://url/rpc/user',
         headers: {
             'Accept': 'application/json',
             'Accept-Encoding': 'gzip, deflate',
@@ -95,7 +95,7 @@ Cypress.Commands.add("loginAPI", () => {
             'Host': 'sindex.qarea.org:10003',
             'Origin': 'http://sindex.qarea.org:10003',
             'Pragma': 'no-cache',
-            'Referer': 'http://sindex.qarea.org:10003/auth/signin',
+            'Referer': 'http://url/auth/signin',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'
         },
         body: {
@@ -104,7 +104,7 @@ Cypress.Commands.add("loginAPI", () => {
             method:"API.LoginUser",
             params:
             {
-                login:"veremeienkorm@hotmail.com",
+                login:"al.rom@hotmail.com",
                 password:"^M0ItvUQ*ri3",
                 remember:true
             }
@@ -118,7 +118,7 @@ Cypress.Commands.add("loginAPI", () => {
 Cypress.Commands.add("getCommitsAPI", (id, token) => { 
     cy.request({
         method: 'POST',
-        url: 'http://sindex.qarea.org:10003/rpc',
+        url: 'http://url/rpc',
         headers: {
             'Accept': 'application/json',
             'Accept-Encoding': 'gzip, deflate',
@@ -131,13 +131,13 @@ Cypress.Commands.add("getCommitsAPI", (id, token) => {
             'Host': 'sindex.qarea.org:10003',
             'Origin': 'http://sindex.qarea.org:10003',
             'Pragma': 'no-cache',
-            'Referer': 'http://sindex.qarea.org:10003/project/analysis/developers',
+            'Referer': 'http://url/project/analysis/developers',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'
         },
         body: {
             id:id,
             jsonrpc:"2.0",
-            method:"CQService.GetCommitsList",
+            method:"CService.GetCommitsList",
             params:{
                 Context:{
                     Token:token,
