@@ -1,0 +1,35 @@
+{
+  "name": "codequality_autotests",
+  "version": "1.0.0",
+  "description": "Codequality Automation Tests",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "cypress-wait-until": "^1.4.1",
+    "cypress-xpath": "^1.4.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^4.0.3",
+    "mochawesome-report-generator": "^4.0.0"
+  },
+  "scripts": {
+    "test": "npx cypress run",
+    "clean": "node clean.js",
+    "merge": "mochawesome-merge cypress/reports/separate-reports/*.json > cypress/reports/full_report.json",
+    "generate": "marge cypress/reports/full_report.json --reportDir ./ --inline",
+    "report": "npm run merge & npm run generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skarbaro/Cypress_project_uI_test.git"
+  },
+  "keywords": [
+    "CQW"
+  ],
+  "author": "Alex Rom",
+  "license": "ISC"
+}

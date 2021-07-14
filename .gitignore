@@ -1,0 +1,16 @@
+node_modules/
+!/node_modules/.bin/
+!/node_modules/cypress/
+!/node_modules/mochawesome/
+!/node_modules/uuid/
+!/node_modules/moment/
+
+cypress/config/
+cypress/examples/
+cypress/videos/
+cypress/report/
+cypress/reports/
+cypress/screenshots/
+.vscode/
+package-lock.json
+debug.log

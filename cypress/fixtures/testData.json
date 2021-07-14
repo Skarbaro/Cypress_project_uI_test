@@ -1,0 +1,229 @@
+{
+    "title_on_landing": [
+        "Decision-making advisor for software development",
+        "Programming languages",
+        "Unlock the hidden potential in your workforce",
+        "Deliver good quality code products now",
+        "Roles",
+        "Success Stories",
+        "Frequently Asked Questions",
+        "Trending topics",
+        "Try Duecode free 30-days trial now"
+    ],
+
+    "FirstName": "Alex Test",
+    "LastName": "Testing",
+    "email": "registration@test.com",
+    "password": "Q1@w3E4r",
+
+    "testProject": "AutotestAddDelRepo",
+
+    "Account1": [
+        "alaster.rom@gmail.com", "1q2w3e4r", "qatestlab-data", "testSettingPage"
+    ],
+
+    "Account1_1": {
+        "user_name": "Sandr Testqa",
+        "new_user_name": "Same Boris",
+        "old_pass": "1q2w3e4r",
+        "new_pass": "Q12w3e4r5t",
+        "invUser_name": "S1andr",
+        "invPassword": "Fw6p4eyU"
+    },
+
+    "invLogin": "invalidTest@mail.ru",
+    "invPassword": "Fw6p4eyU",
+
+    "step_1": "Create project",
+    "step_2": "Copy SSH key",
+    "step_3": "Add repository",
+    "step_4": "Add period",
+    "step_5": "Onboarding completed!",
+
+    "urlRepo": "https://github.com/Skarbaro/test_merge_repo.git",
+    "branchRepo": "master",
+
+    "invUrlRepo": "https://github.com/Skarbaro/tes_repo.git",
+    "invBranchRepo": "in_master",
+
+    "urlRepoQatestlab": "https://github.com/roman-vrm/qatestlab.git",
+    "branchRepoQatestlab": "master",
+
+    "metrics_QATestLab": {
+        "dev_name": "Roman",
+        "dev_email": "veremeienkorm@hotmail.com",
+        "number_developer": "1",
+        "number_days_commit": "4",
+        "add_loc": "816",
+        "removed_loc": "181",
+        "total_loc": "635",
+        "hi_opened": "5",
+        "hi_per_kloc": "6.2",
+        "median_commit": "62",
+        "fat_commits": "1",
+        "big_commit_loc": "461",
+        "big_hash_commit": "7fdd042",
+        "number_violations": "53",
+
+        "td_loc": "2.84",
+        "v_kloc": "65.43",
+        "c_kloc": "75.31",
+        "cgc_kloc": "29.63",
+        "d_kloc": "202.47",
+        "td_kloc": "1d 3h",
+        "h_impacts": "5",
+        "loc": "997",
+        "commits": "9"
+    },
+
+    "commits_metrics_QATestLab": {
+        "e18bccf": {
+            "hash_commit": "e18bccf",
+            "grade": "/images/grades/grade-1.svg",
+            "tdloc": "2.14",
+            "vkloc": "76.92",
+            "ckloc": "153.85",
+            "cgckloc": "-",
+            "dkloc": "-",
+            "td": "8",
+            "high_impact": "1",
+            "addedLoc": "13",
+            "removedLoc": "4"
+        }
+    },
+    
+    "graph_cq_page": [
+        "Daily code rating", "Code metrics by developer", "Code metrics by repository",
+        "High-impact violations by commit", "High-impact violations by developer"
+    ],
+
+    "graph_activity_page": [
+        "Code output timeline", "Fat commits", "Comments size", "Tickets mentioned",
+        "Code affected by developer"
+    ],
+
+    "graph_developers_page": [
+        "Developers", "Developers List"
+    ],
+
+    "graph_commits_page": [
+        "Commits", "Summary", "Commits List"
+    ],
+
+    "graph_violations_page": [
+        "Violations", "Violations List"
+    ],
+
+    "graph_overview_page": [
+        "Overview"
+    ],
+
+    "pricingPage": {
+        "service_list": [
+            "Trial", "Repositories", "Data retention", "Manager Training", "Dedicated success manager", "Customization possibility", "Unlimited", "48", "1 per month", "2 per month"
+        ]
+    },
+
+    "requestDemo": {
+        "reg_email": "alaster.rom@gmail.com",
+        "your_name": "Big",
+        "company_name": "Hata",
+        "number_dev": "123456789",
+        "message": "A demo request has been successfully sent",
+        "not_reg_email": "alaster.raf@gmail.com",
+
+        "inv_email": "alaster.rom@gmail",
+        "inv_yname": "B1g",
+        "inv_cname": "H",
+        "inv_number": "two"
+    },
+
+    "settingsTabsName": {
+        "nameTab": [ "Repositories", "SSH Key", "Users", "Rules", "Iteration", "Reports" ],
+        "url": [ "/repos", "/key", "/users", "/rules", "/iterations", "/reports" ]
+    },
+
+    "supportFaqNameLink": {
+        "gitHub": "GitHub guide", 
+        "gitLab": "GitLab guide", 
+        "bitbuc": "Bitbucket guide", 
+        "own_serv": "Own server guide", 
+        "community": "community",
+        "email": "email"
+    },
+
+    "SupportFAQurl": {
+        "CodeQuality": "/",
+        "setUpTheSSH_key": "/project/settings/key",
+        "community": "http://community.diligences.com/",
+        "email": "mailto:support@diligences.com",
+        "GitHub": "https://community.diligences.com/t/how-to-add-ssh-key-to-the-github-user/171",
+        "GitLAb": "https://community.diligences.com/t/start-with-due-cq-for-gitlab-users/175",
+        "Bitbucket": "https://community.diligences.com/t/start-with-due-cq-for-bitbucket-users/174",
+        "Own_Server": "https://community.diligences.com/t/start-with-due-cq-for-source-code-hosted-on-an-own-server/178"
+    },
+
+    "ruleDescription": {
+        "name_java:S112": "Generic exceptions should never",
+        "java:S112": "Using such generic exceptions as Error, RuntimeException, Throwable, and Exception prevents calling methods from handling true, system-generated exceptions differently than application-generated errors.",
+        "common-xml:FailedUnitTests": "Test failures or errors generally indicate that regressions have been introduced. Those tests should be handled as soon as possible to reduce the cost to fix the corresponding regressions."
+    },
+
+    "searchData": {
+        "repoName_1": "test_move_repo",
+        "repoName_2": "Plan_dev_change_2"
+    },
+
+    "notification": {
+        "report_notif": "Reports settings have been successfully updated",
+        "add_iteration": "Iteration has been successfully created",
+        "delete_iteration": "Iteration has been successfully deleted",
+        "inv_user": "An invitation email has been successfully sent to the user",
+        "del_inv_user": "User has been successfully removed",
+        "update_user": "User has been updated successfully",
+        "update_password": "Password has been updated successfully",
+        "invalid_branch": "The branch you specified was not found. Please recheck if branch exists.",
+        "invalid_url": "Repository can't be reached. Please recheck if the repository URL you provided is correct and the repository is not private (for private repositories use SSH access).",
+        "messageWarningHttp": "https:// that you’ve used is for public repos only. Use git: link instead, for private repos",
+        "repo_already_exists": "Repository already exists"
+    },
+
+    "permissions": {
+        "projects": "Manage projects",
+        "repo": "Manage repos",
+        "users": "Manage users",
+        "payments": "Manage payments"
+    },
+
+    "accountSettingsPage": {
+        "nameTab": ["General", "Subscription"],
+        "urlTab": ["/account/general", "/account/subscription"]
+    },
+
+    "topicArticle": {
+        "article_url1": ["What is Technical Debt?", "https://duecode.io/blog/what-is-technical-debt/"],
+        "article_url2": ["Complete Code Quality Guide", "https://duecode.io/blog/code-quality/"]
+    },
+
+    "linksLending": {
+        "pricing": "/pricing",
+        "workforce": "https://duecode.io/#dc-workforce",
+        "roles": "https://duecode.io/#dc-roles",
+        "twitter": "https://twitter.com/DuecodeIo",
+        "linkedin": "https://www.linkedin.com/company/diligences-inc-",
+        "facebook": "https://www.facebook.com/duecode.io/",
+        "blog": "https://duecode.io/blog/",
+        "terms": "/terms",
+        "privacy": "/privacy",
+        "cookies": "/cookies",
+        "historical": "https://cmmiinstitute.com/pars/appraisals/32381/historical",
+        "ISO-Diligences": "https://cq-web-stage-sindex.qarea.org/images/ISO-Diligences.jpg"
+    }
+
+}
+
+
+
+
+    
+
